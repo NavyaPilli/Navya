@@ -1,0 +1,17 @@
+//to print the factors of a given number
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a,num;
+	printf("enter a number");
+	scanf("%d",&num);
+	a=1;
+	while(a<=num)
+	{
+		if(num%a==0)
+		printf("%d ",a);
+		a++;
+	}
+	getch();
+}
