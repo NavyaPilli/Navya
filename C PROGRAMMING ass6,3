@@ -1,0 +1,15 @@
+//to find the power of a given number
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
+main()
+{
+    int a,b,c;
+    printf("enter the base");
+    scanf("%d",&a);
+    printf("enter the power");
+    scanf("%d",&b);
+    c=pow(a,b);
+    printf("total value be %d",c);
+	getch();
+}
